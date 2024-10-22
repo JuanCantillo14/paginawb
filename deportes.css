@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+body{
+    background-color: whitesmoke;
+    margin:0
+}
+header{
+    display: flex;
+    height: 90px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+.div--slogan{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo--img{
+    height: 70px;
+    width: 90px;
+    margin: 20px 20px;
+    padding: 0 0 0 50px;
+}
+.logo--img:hover{
+    height: 90px;
+    width: 110px;
+    margin: 20px 20px;
+    transition: all 0.7s ease 0s;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    display: inline-flex;
+    font-size: 20px;
+    font-family: Lexend;
+
+}
+a:hover{
+    background-color: white;
+    width: 80px;
+    margin: 0px 20px;
+    transition: all 3s ease 0s;
+    font-size: 22px;
+    border-bottom: 50%;
+    color:gold;
+    border: 1px solid goldenrod;
+    
+}
+nav a{
+    padding: 0px 200px;
+}
+#introduccion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    color: antiquewhite;
+}
+video{
+    position: absolute;
+    
+    height: 100%;
+    width: 250vh;
+    /* width: 100%; */
+    z-index: -1;
+}
+
+#seccion--futbol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    background-color: white;
+    background-image: url("images/stadio.jpg")
+}
+.img--futbol{
+    height: 500px;
+    width: 500px;
+    margin: 0 0 0 80px;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.parrafo--futbol{
+    justify-content: center;
+    text-align: justify;
+    margin: 0 80px 0 50px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+
+#seccion--baloncesto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    background-color: black;
+    color: antiquewhite;
+    background-image: url("images/stadiumba.jpg");
+}
+.parrafo--baloncesto{
+    justify-content: center;
+    text-align: justify;
+    margin: 0 80px 0 50px;
+    font-weight: bold;
+}
+
+/* #seccion--tenis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    height: 80vh;
+    background-color: white;
+    color: antiquewhite; */
+/* } */
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 40px 40px 40px 0px;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 8px; 
+    text-align: center;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+th {
+    background-color: whitesmoke;
+}
+
+caption {
+    font-weight: bold; 
+    margin: 0 0 0 20px;
+}
+h2{
+    margin: 20px 0;
+    color: white;
+}
